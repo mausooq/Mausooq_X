@@ -50,34 +50,34 @@ export default function Home() {
 
   const sideProjects = [
     {
-      title: "AI Hub powered by Cloudflare Worker AI",
-      desc: "Developed a project using Nuxt.js and Cloudflare Worker AI, facilitating users to multiple Cloudflare Worker AI functionalities. Integrated dark/light mode and OAuth login with GitHub for enhanced user experience. Additionally, empowered users to deploy their private AI sites.",
-      preview: "",
-      github: "https://github.com/larry-xue/nuxt-chat-cloudflare",
+      title: "Student Achievement Management System",
+      desc: " A web app for tracking academic progress, extracurricular activities, projects, and internships. Features include a secure database schema, user authentication with password encryption, session management, and admin controls for profile management and activity monitoring. Promotes self-awareness and continuous improvement.",
+      preview: "Project1.jpg",
+      github: "https://github.com/mausooq/SAMS"
     },
     {
-      title: "Larry Xue Site",
-      desc: "Built a personal website using Next.js and Next UI.",
-      preview: "https://larryxue.dev/",
-      github: "https://github.com/larry-xue/larry-xue-site"
+      title: "Invest-IQ",
+      desc: "Full stack crypto app developed using React Native and Expo. Features include crypto management for tracking investments, real-time data integration with Rapid API for live prices and market updates, user profiles for personalized settings, and secure wallet integration for managing digital assets.",
+      preview: "Project2.jpg",
+      github: "https://github.com/mausooq/InvestIQ"
     },
     {
-      title: "Weather App",
-      desc: "A simple weather app using Open-Meteo API and React.",
-      preview: "https://weather-app-react-75h.pages.dev/",
-      github: "https://github.com/larry-xue/weather-app-react"
-    },
+      title :"Learn Lux",
+      desc: "A MERN stack course selling app where admins can add, edit courses, and view users, while users can enroll in courses.",
+      preview: "Project3.jpg",
+      github: "https://github.com/mausooq/Learn-Lux"  
+    },    
     {
-      title: "Folder to JSON",
-      desc: "Folder to JSON is a web application utilizing the showDirectoryPicker API to enable users to select a folder on their local machine. It recursively retrieves subdirectories to generate a JSON tree structure representing the directory hierarchy.",
-      preview: "https://folder2json.larryxue.dev/",
-      github: "https://github.com/larry-xue/folder-to-json"
+      title: "Embed Club - Website",
+      desc: "Contributed to the development of the Embed Club website, a platform dedicated to embedded systems education. Key responsibilities included enhancing site functionality, improving user interface design",
+      preview: "Project4.png",
+      github: "https://github.com/mausooq/embed-club"
     },
-    {
-      title: "Vite Vue2 Starter Template",
-      desc: "vite-vue2-starter is a template for quickly starting Vue.js 2 projects. Built on the Vite v5 build tool",
-      github: "https://github.com/larry-xue/vite-vue2-starter"
-    }
+    // {
+    //   title: "Vite Vue2 Starter Template",
+    //   desc: "vite-vue2-starter is a template for quickly starting Vue.js 2 projects. Built on the Vite v5 build tool",
+    //   github: "https://github.com/mausooq/embed-club"
+    // }
   ]
 
   const { isSmallScreen, showSideMenu } = useScreenSize();
