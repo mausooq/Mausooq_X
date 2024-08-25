@@ -10,7 +10,7 @@ export default function Blog() {
       className="hover:text-shadow-3 m-0 font-heading text-[clamp(3rem,_10vw,_4.5rem)] text-center font-black tracking-[-0.2rem] transition-all duration-300">
       Blog & Notes</div>
 
-    {/* {posts.map((post) => (
+    {posts.map((post) => (
       <Card
         key={post.id}
         shadow="sm"
@@ -40,6 +40,6 @@ export default function Blog() {
           </Link>
         </CardFooter>
       </Card>
-    ))} */}
+    ))}
   </div >;
 }

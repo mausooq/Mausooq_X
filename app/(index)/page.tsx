@@ -71,7 +71,8 @@ export default function Home() {
       title: "Embed Club - Website",
       desc: "Contributed to the development of the Embed Club website, a platform dedicated to embedded systems education. Key responsibilities included enhancing site functionality, improving user interface design",
       preview: "Project4.png",
-      github: "https://github.com/mausooq/embed-club"
+      open: "https://embedclub.org",
+      github:"https://github.com/mausooq/embed-club"
     },
     // {
     //   title: "Vite Vue2 Starter Template",
@@ -215,23 +216,43 @@ export default function Home() {
                 </CardBody>
                 <Divider />
                 <CardFooter className="flex gap-3">
-                  {/* <Link
+                     <Link
                     isExternal
                     showAnchorIcon
                     href={project.preview}
                     isDisabled={!project.preview}
                   >
                     Preview
-                  </Link> */}
+                  </Link>
+                {project.github && (
                   <Link
                     isExternal
                     showAnchorIcon
                     href={project.github}
-                    isDisabled={!project.github}
                   >
                     GitHub
                   </Link>
-                </CardFooter>
+                )}
+                {project.open && (
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    href={project.open}
+                  >
+                    Open
+                  </Link>
+                )}
+                {!project.github && !project.open && (
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    href="#"
+                    isDisabled={true} 
+                  >
+                    Open
+                  </Link>
+                )}
+              </CardFooter>
               </Card>
             ))
           }
