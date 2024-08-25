@@ -72,7 +72,7 @@ export default function Home() {
       desc: "Contributed to the development of the Embed Club website, a platform dedicated to embedded systems education. Key responsibilities included enhancing site functionality, improving user interface design",
       preview: "Project4.png",
       open: "https://embedclub.org",
-      github:"https://github.com/mausooq/embed-club"
+      // github:"https://github.com/mausooq/embed-club"
     },
     // {
     //   title: "Vite Vue2 Starter Template",
