@@ -10,16 +10,18 @@ import SideMenu from "./components/side-menu";
 
 export default function Home() {
   const technologies: Record<string, string[]> = {
-    language: ["HTML", "Javascript", "TypeScript", "Python", "Go",],
+    language: ["HTML", "Javascript", "TypeScript", "Python", "GO",],
     // vue: ["Vue 2/3", "Vuex", "Vue Router", "Nuxt.js", "Vitepress"],
     style: ["Tailwind", "Bootstrap", "CSS",],
     react: ["React", "Nuxt.js", "Redux", "React-Query",],
-    // build: ["Vite", "Webpack",],
+    build: ["Vite", "Webpack",],
     // graph: ["Three.js", "Echarts",],
     backend: ["Node.js", "Django", "Express.js", "PHP", "MySQL", "MongoDB", "Docker",],
     tools: ["Git",],
     AppDev:["React Native", "Android Studio", "SupaBase",],
     DevBoard:["Arduino", "raspberry pi", "Esp32", "STM-32"],
+    Business_Applications: ["Microsoft PowerApps", "Sharepoint", "Salesforce"],
+    Blockchain: ["Smart Contracts", "Hyperledger Fabric"," Etherium", "Truffle", "Ganache"],
     // platform: ["Cloudflare", "Vercel",]
 
   }
@@ -69,10 +71,16 @@ export default function Home() {
     },    
     {
       title: "Embed Club - Website",
-      desc: "Contributed to the development of the Embed Club website, a platform dedicated to embedded systems education. Key responsibilities included enhancing site functionality, improving user interface design",
+      desc: "Contributed to the development of the Embed Club website, a platform dedicated to embedded systems education.",
       preview: "Project4.png",
       open: "https://embedclub.org",
       // github:"https://github.com/mausooq/embed-club"
+    },
+    {
+      title: "Clinical Trials",
+      desc: "Developed a platform using Flask to compare public (Ethereum) and private (Hyperledger) blockchains in clinical trials.",
+      preview: "Project5.jpg",
+      github:"https://github.com/mausooq/blockchain"
     },
     // {
     //   title: "Vite Vue2 Starter Template",
@@ -188,7 +196,8 @@ export default function Home() {
           Education</h1>
         <div>
           <h3 className="text-2xl font-bold">Bachelor of Computer Science Engineering</h3>
-          <p className="text-lg">P.A. College Of Engineering (2024 - 2025)</p>
+          <p className="text-lg">P.A. College Of Engineering (2024 - 2025) </p>
+          <p className="text-lg">GPA 8.8 </p>
         </div>
       </div>
 
