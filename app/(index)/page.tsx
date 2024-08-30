@@ -36,12 +36,12 @@ export default function Home() {
       time: "October - November 2023",
       desc: "Enhanced problem-solving skills and knowledge of data structures and algorithms in Java. Utilized Java for backend application development. Gained experience with SQL for database management."
     },
-    {
-      title: "Intern",
-      company: "Samagra Technologies ",
-      time: "January 2024",
-      desc: "Designed and deployed blockchain networks on both Hyperledger Fabric and Ethereum. Implemented smart contracts to ensure secure and tamper-proof data management. Analyzed and compared throughput and latency metrics across blockchain networks. Created graphical comparisons showing the advantages of private blockchain."
-    },
+    // {
+    //   title: "Intern",
+    //   company: "Samagra Technologies ",
+    //   time: "January 2024",
+    //   desc: "Designed and deployed blockchain networks on both Hyperledger Fabric and Ethereum. Implemented smart contracts to ensure secure and tamper-proof data management. Analyzed and compared throughput and latency metrics across blockchain networks. Created graphical comparisons showing the advantages of private blockchain."
+    // },
     {
       title: "Freelancer Web Developer ",
       company: "EyeqDotNet ",
