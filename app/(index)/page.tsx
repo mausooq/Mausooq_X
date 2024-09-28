@@ -18,7 +18,7 @@ export default function Home() {
     // graph: ["Three.js", "Echarts",],
     backend: ["Node.js", "Django", "Express.js", "PHP", "MySQL", "MongoDB", "Docker",],
     tools: ["Git",],
-    AppDev:["React Native", "Android Studio", "SupaBase",],
+    AppDev:["React Native", "Android Studio", "SupaBase","FireBase"],
     DevBoard:["Arduino", "raspberry pi", "Esp32", "STM-32"],
     Business_Applications: ["Microsoft PowerApps", "Sharepoint", "Salesforce"],
     Blockchain: ["Smart Contracts", "Hyperledger Fabric"," Etherium", "Truffle", "Ganache"],

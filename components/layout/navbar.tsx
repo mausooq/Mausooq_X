@@ -14,7 +14,7 @@ export default function Navbar() {
         <Tab key="/" href="/" title="Home" />
         <Tab key="/blog" href="/blog" title="Blog" />
         <Tab key="/contact" href="/contact" title="Contact" />
-        <Tab key="resume" href="https://drive.google.com/file/d/1ohqncqNJJW-41XHofLyu1oEq7zndGdOP/view?usp=sharing" target="_blank" title="Resume" />
+        <Tab key="resume" href="https://drive.google.com/file/d/11UkLMY2ckWQLpWzdpY4gaGbSXRWk1izq/view?usp=sharing" target="_blank" title="Resume" />
         <Tab key="theme" className="p-0" title={<ThemeSwitcher />} onClick={() => window.location.reload()} />
       </Tabs>
     </div>
