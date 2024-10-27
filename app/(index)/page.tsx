@@ -13,7 +13,7 @@ export default function Home() {
     language: ["HTML", "Javascript", "TypeScript", "Python", "GO",],
     // vue: ["Vue 2/3", "Vuex", "Vue Router", "Nuxt.js", "Vitepress"],
     style: ["Tailwind", "Bootstrap", "CSS",],
-    react: ["React", "Nuxt.js", "Redux", "React-Query",],
+    react: ["React", "Next.js", "Redux", "React-Query",],
     build: ["Vite", "Webpack",],
     // graph: ["Three.js", "Echarts",],
     backend: ["Node.js", "Django", "Express.js", "PHP", "MySQL", "MongoDB", "Docker",],
