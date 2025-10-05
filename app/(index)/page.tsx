@@ -162,9 +162,9 @@ export default function Home() {
             Abdul Mausooq
           </h1>
           <div className="flex flex-col gap-4 font-extrabold text-lg md:text-left mt-4">
-            <p>FullStack Developer 💻</p>
-            <p>Embeded System 🚀</p>
-            <p>Beginner App Developer 🤯</p>
+            <p>Software Engineer 💻</p>
+            <p>Ai Engineer 🚀</p>
+            <p>App Developer 🤯</p>
           </div>
         </div>
       </div>
